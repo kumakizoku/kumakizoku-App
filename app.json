@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Kumakizoku-App",
+    "icon": "./images/app-icon.png",
+    "version": "1.0.0",
+    "slug": "kumakizoku",
+    "sdkVersion": "32.0.0",
+    "ios": {
+      "bundleIdentifier": "com.hph2019.kumakizoku"
+    },
+    "android": {
+      "versionCode": 5,
+      "package": "com.hph2019.kumakizoku",
+      "permissions": []
+    },
+    "description": ""
+  }
+}
