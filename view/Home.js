@@ -60,30 +60,31 @@ class Home extends Component {
   _upload = async () => {
     alert("写真をアップロードしました。個体識別が完了しました。")
     return
-    
-    let apiUrl = 'https://xxxxxxxxx/upload'
 
-    let uriParts = this.state.image.split('.')
-    let fileType = uriParts[uriParts.length - 1]
+    // API未実装のため、以下のコードは実行されないようにする
+    // let apiUrl = 'https://xxxxxxxxx/upload'
 
-    console.log(fileType)
+    // let uriParts = this.state.image.split('.')
+    // let fileType = uriParts[uriParts.length - 1]
 
-    let formData = new FormData()
-    formData.append('photo', {
-      uri,
-      name: `photo.${fileType}`,
-      type: `image/${fileType}`
-    })
-    let options = {
-      method: 'POST',
-      body: formData,
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'multipart/form-data'
-      }
-    }
+    // console.log(fileType)
 
-    return fetch(apiUrl, options)
+    // let formData = new FormData()
+    // formData.append('photo', {
+    //   uri,
+    //   name: `photo.${fileType}`,
+    //   type: `image/${fileType}`
+    // })
+    // let options = {
+    //   method: 'POST',
+    //   body: formData,
+    //   headers: {
+    //     Accept: 'application/json',
+    //     'Content-Type': 'multipart/form-data'
+    //   }
+    // }
+
+    // return fetch(apiUrl, options)
 
     // await fetch('http://xxxxxxx' + '/api/upload', {
     //   method: 'POST',
